@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: #39898F;
+}
+
+#logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 320px;
+    height: 130px;
+}
+
+.botoesbarracima{
+    color: #FFFF;
+    font-size: 25px;
+    position: absolute;
+    text-decoration: none;  
+    right: 0;
+    margin: 60px;
+}
+
+/** gambiarra **/
+#contato{
+    margin-right: 875px;
+}
+
+#suporte{
+    margin-right: 475px;
+}
+
+#avaliacoes{
+    margin-right: 275px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+#qs{
+    font-size: 50px;
+    margin: 15px;
+}
+
+.escritoe{
+    height: auto;
+    border-style: dotted;
+}
