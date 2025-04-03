@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ______________________________________________________BARRA DE CIMA__________________________________________________________*/
+header{
+    background-color: #39898F;
+    box-shadow: 0px 15px #24585C;
+}
+
+#logo{
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 320px;
+    height: 130px;
+}
+
+.botoesbarracima{
+    color: #FFFF;
+    font-size: 25px;
+    position: absolute;
+    text-decoration: none;  
+    right: 0;
+    margin: 60px;
+}
+
+#contato{
+    margin-right: 800px;
+}
+
+#suporte{
+    margin-right: 600px;
+}
+
+#avaliacoes{
+    margin-right: 400px;
+}
+/*_____________________________________________________________________________________________________________________________*/
+
+/*___________________________________________________TEXTO NA DIREITA__________________________________________________________*/
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+}
+
+#te{
+    font-size: 50px;
+    margin: 15px;
+    text-align: center;
+}
+
+.escritod{
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: #39898F;
+    box-shadow: 10px 15px #24585C;
+}
+
+.parteee{
+    margin-left: 200px;
+    margin-right: 180px;
+}
+
+.textoemquadro{
+    margin: 50px 130px 50px;
+    font-size: 25px ;
+    color: #FFFF;
+}
+
+#formasdepagamento{
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#queropix{
+    margin-left: 200px;
+    margin-right: 180px;
+}
+/*____________________________________________________TEXTO NA ESQUERDA____________________________________________________________*/
+.escritoe{
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #39898F;
+    box-shadow: -10px 15px #24585C;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+}
+
+#gifpensando{
+    margin-left: 180px;
+    margin-right: 200px;
+    height: 300px;
+}
+
+.td{
+    text-align: center;
+    font-size: 50px;
+}
+
+.textoemquadroe{
+    margin: 100px 100px 50px;
+    font-size: 25px ;
+    color: #FFFF;
+}
+/*_________________________________________________________________________________________________________________________________*/
